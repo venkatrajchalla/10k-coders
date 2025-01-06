@@ -1,0 +1,28 @@
+.logo{
+    position: relative;
+}
+.logo p{
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   color: white;
+   font-size: 30px;
+   padding: 20px;
+}
+.logo1{
+   position: absolute;
+   color: white;
+   font-size: 50px;
+   top: 300px;
+   right: 600px;
+}
+.by{
+   position: absolute;
+   bottom: 2px;
+   left: 10px;
+   color: white;
+margin-bottom: 0px;
+}
+img{
+    width: 100%;
+}
