@@ -1,0 +1,101 @@
+
+.box-px{
+    width: 200px;
+    height: 100px;
+    border: 2px solid black;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: rgb(37, 15, 61);
+}
+hr{
+    border: 1px solid;
+    width: 100%;
+    margin-left: 0%;
+}
+.parent-percent{
+    width: 300px;
+    height: 200px;
+    border: 2px solid;
+}
+.child-percent{
+    width: 50%;
+    height: 50%;
+    background-color: rgb(130, 244, 130);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rem-paragraph{
+    font-size: 2rem;
+    background-color: rgb(164, 186, 199);
+    display: inline-block;
+
+}
+.parent-em{
+    width: 300px;
+    height: 200px;
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:16px ;
+}
+.child-em{
+    font-size: em;
+    background-color: rgb(235, 144, 158);
+}
+.box-vw{
+    width: 50vw;
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(124, 124, 130);
+}
+.box-vh{
+    height: 25vh;
+    border: 2px solid;
+
+background-color: rgb(200, 248, 187);
+}
+.square-vmin{
+    width: 20vmin;
+    height: 20vmin;
+    border: 2px solid;
+    background-color: rgb(196, 205, 205);
+}
+.square-vmax{
+    width: 20vmax;
+    height: 20vmax;
+    border: 2px solid;
+    background-color: rgb(243, 199, 181);
+
+}
+.parent-relative{
+    width: 300px;
+    height: 300px;
+    border: 2px solid;
+    position: relative;
+
+}
+.child-absolute{
+    width: 150px;
+    height: 150px;
+    border: 1px solid;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(170, 206, 92);
+}
+.parent-font{
+    font-size: 20px;
+    border: 2px solid black;
+    color: rgb(12, 88, 12);
+    display: inline-block;
+}
+.child-font{
+    font-size: inherit;
+    color: rgb(106, 25, 12);
+}
