@@ -229,7 +229,7 @@ hr{
     }
 }
 .hero-section{
-    background-color: url("./Images/krishna walpaper.jpg");
+    background-image: url("./Images/krishna walpaper.jpg");
     width: 100%;
     font-size: 32px;
     background-size: cover;
