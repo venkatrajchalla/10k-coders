@@ -1,0 +1,142 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/* .task-1 */
+.task-1{
+    height:300px;
+    width: 100%;
+    display: flex;
+    gap:10px;
+    justify-content: center;
+    align-items: end;
+}
+.item{
+    border-radius: 5%;    
+}
+.item-1{  
+    animation: item-1 0.7s ease-in-out infinite;
+    height: 80px;
+    width: 50px;
+    background-image: linear-gradient(rgb(250, 28, 241),rgb(115, 37, 188));
+}
+.item-2{
+     animation: item-2 0.7s ease-in-out infinite;
+
+    background-image: linear-gradient(rgb(250, 28, 241),rgb(115, 37, 188));
+    height: 100px;
+    width: 50px;
+}
+.item-3{ 
+    animation: item-3 0.7s ease infinite;
+    background-color: rgb(241, 28, 241);
+    height: 200px;
+    width: 50px;
+}
+.item-4{ 
+    animation: item-4 0.7s ease infinite;
+    background-image: linear-gradient(rgb(250,28,241),rgb(115,37,188));
+    height: 150px;
+    width: 50px;
+}
+.item-5{ 
+    animation: item-5 0.7s ease-in-out infinite;
+    background-image: linear-gradient(rgb(250, 28, 241),rgb(115, 37, 188)); 
+    height: 100px;
+    width: 50px;
+}
+.item-6{ 
+    animation: item-6 0.7s ease-in-out infinite;
+    background-image: linear-gradient(rgb(250, 28, 241),rgb(115, 37, 188));
+    height: 80px;
+    width: 50px;
+} 
+
+@keyframes item-1 {
+        0% {
+             height: 0px;
+             }
+       
+      }
+      @keyframes item-2 {
+        0% { 
+            height: 70px;
+         }
+      
+      }
+      @keyframes item-3 {
+        25% { 
+            height: 150px; 
+        }
+      
+      }
+      @keyframes item-4 {
+        25% {
+             height: 100px;
+             }
+      
+      }
+      @keyframes item-5 {
+        0% {
+             height: 50px;
+             }
+      
+      }
+      @keyframes item-6 {
+        0% { 
+            height: 0px; 
+        }
+      
+      }
+      /* task-2 */
+      .task-2{
+        height: 300px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:10px;
+       
+      }
+      .chukka{
+        height: 20px;
+        width: 20px;
+        border-radius:50% ;
+        animation:move 1.4s infinite ease-in-out;
+
+      }
+      .chukka-1 {
+        background-color:blue;
+        animation-delay: 0s;
+  
+      }
+      .chukka-2 {
+        background-color: red;
+        animation-delay: 0.2s;
+       
+      }
+      .chukka-3 {
+        background-color: yellow;
+        animation-delay: 0.4s; 
+      }
+      .chukka-4 {
+        background-color: green;
+        animation-delay: 0.6s;
+        
+      }
+      @keyframes move{
+        0%{
+            transform: translateY(0px);
+        }
+        25%{
+            transform: translateY(4px);
+        }
+        50%{
+            transform: translateY(-8px);
+        }
+        100%{
+            transform: translateY(-10);
+        }
+      }
