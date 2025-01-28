@@ -1,0 +1,185 @@
+.one{
+    height: 40px;
+    width: 1050px;
+    border: 2px solid  black;
+}
+@media screen and 
+    (min-width  : 768px) and (max-width : 1024px)
+    {
+       .one{
+        background-color: lightblue;
+       }
+    }
+.two{
+    width: 1050px;
+    border: 2px solid black;
+}
+@media screen and
+(min-width : 600px) and (max-width : 1200px) {
+    .two{
+        font-size: 28px;
+    }
+    
+}
+.three{
+    height: 250px;
+    width: 250px;
+    background-color: rgb(113, 170, 118);
+}
+.three1{
+    height: 250px;
+    width: 250px;
+    background-color: rgb(244, 160, 121);
+
+}
+@media screen and
+(min-width : 480px){
+    .a{
+        display: flex;
+        
+    }
+    
+}
+.four{
+    width: 100%;
+    border: 2px solid;
+}
+@media screen and
+(min-width : 500px) and (max-width :800px) {
+    h1{
+        color: rgb(70, 133, 168);
+    }
+    
+}
+img{
+    width: 300px;
+}
+@media  screen and
+(min-width : 400px) {
+.five1{
+        display: none;
+    }
+}
+.six{
+    width: 100%;
+    height: 50px;
+    border: 2px solid black ;
+    color: rgb(93, 129, 93);
+}
+@media screen and
+(min-width : 1024px) {
+    .six{
+        padding: 20px;
+    }
+    
+}
+.seven{
+    width: 100%;
+    height: 30px;
+    border: 2px solid black;
+}
+@media screen and
+(min-width : 600px) and (max-width : 1200px) {
+    .seven{
+        background-color: rgb(172, 183, 213);
+    }
+    
+}
+.eight{
+    border: 2px solid;
+}
+@media screen and 
+(min-width : 480px) {
+    p{
+        font-size: 32px;
+    }
+    
+}
+.nine-1{
+    background-color: rgb(143, 200, 151);
+    height: 50px;
+}
+.nine-2{
+    background-color: rgb(150, 147, 224);
+    height: 50px;
+}
+@media screen and
+(min-width : 768px) and (max-width : 1200px ) {
+    .nine{
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+       gap: 16px;
+    }
+    
+}
+@media screen and
+(max-width : 600px) {
+    .ten1{
+        width: 100%;
+    }
+    
+}
+@media screen and
+(min-width : 700px) and (max-width : 1200px) {
+    a{
+        text-decoration: none;
+        color: rgb(126, 126, 214);
+    }
+    
+}
+.twelve{
+    border: 2px solid;
+}
+@media screen and 
+(min-width :500px) and (max-width :800px) {
+    div>h2{
+        font-size: 50px;
+    }
+    
+}
+.thirteen{
+    background-color: rgb(161, 95, 147);
+    height: 300px;
+    width: 300px;
+}
+@media screen and 
+(min-width : 1024px) {
+    .thirteen{
+        border: 5px solid black;
+    }
+    
+}
+.sidebar{
+    width: 200px;
+    background-color: rgb(145, 193, 91);
+    padding: 10px;
+    height: 400px;
+}
+@media screen and
+(min-width : 800px) and (max-width :1200px) {
+    .sidebar{
+        width: 250px;
+    }
+    
+}
+.fifteen{
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+}
+.one{
+    background-color: rgb(118, 109, 189);
+    width: 100px;
+    text-align: center;
+    align-content: center;
+   }
+@media screen and 
+(min-width : 600px) {
+    
+   .fifteen{
+        display:flex;
+        flex-direction: column;
+   } 
+    
+    
+}
