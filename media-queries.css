@@ -1,0 +1,254 @@
+*{
+    margin : 0px;
+    padding : 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", serif ;
+}
+html , body {
+    height: 100%;
+}
+body>*{
+    filter: grayscale(50%);
+    
+}
+.bg_image{
+    width: 100%;
+    background-image: url('https://www.w3schools.com/w3images/wedding_couple.jpg');
+    min-height: 100%;
+    background-position:center center;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.bg-content{
+    position: absolute;
+    top : 50%;
+    left:50%;
+    transform: translate(-50% , -50%);
+    line-height: 80px;
+}
+.bg-content p{
+    color: white;
+}
+.bg-content p:first-child{
+    font-size: 62px;           
+}
+.bg-content p:nth-child(2){
+    font-size: 32px;
+    text-align: center;    
+}
+.bg-content p:nth-child(3){
+    font-size: 32px;
+    text-align: center;    
+}
+.foot{
+    width: 100%;
+    display: flex;
+    background-color: lightgrey;
+    justify-content: space-evenly;
+    position: fixed;
+    padding: 8px;
+    bottom: 0px;
+    z-index: 999;
+}
+.foot a{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+.foot:hover{
+    background-color: white;
+}
+.foot a:hover{
+    background-color:lightgray;
+}
+.foot a:last-child:hover{
+    background-color: black;
+    color: white;
+
+}
+.container{
+    width: 100%;
+    background-color: lightpink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap : 70px;
+}
+.container>*{
+    
+    width: 75%;
+    text-align: center;
+    
+}
+.bg-image1 img{
+    width: 100%;
+}
+.container .jane{
+    padding-top: 50px;
+    font-size: 32px;
+}
+.para{
+    text-align: justify;
+    font-style: italic;
+    line-height: 30px;
+}
+.wedding{
+    background-color: black;
+    color : white;
+    padding: 30px;
+    width: 15%;
+    border-radius: 5px;
+}
+.wedding:hover{
+    background-color: lightgray;
+}
+.container>.flowers{
+    background-image: url('https://www.w3schools.com/w3images/flowers.jpg');
+    width : 100%;
+    min-height:600px;
+    background-position:center center;
+    background-size: cover;
+    position: relative;
+}
+.invited{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 100px;
+    letter-spacing: 3px;
+}
+.invited p:nth-child(1){
+    font-size: 55px;
+    color: white;
+}
+.invited p:nth-child(2){
+    font-size: 25px;
+    color: white;
+}
+#wedding{
+    color : grey;
+    font-size: 40px;
+}
+.dining img{
+    border-radius: 15px;
+    width: 100%;
+}
+.whenwhere{
+    display: flex;
+    justify-content: space-around;
+    line-height: 50px;
+}
+.when p:nth-child(1), .where p:nth-child(1){
+    font-size: 35px;
+}
+.when p:nth-child(2), .where p:nth-child(2){
+    font-size: 15px;
+}
+.when p:nth-child(3), .where p:nth-child(3){
+    font-size: 15px;
+}
+.last{
+    background-color:lightsalmon;
+    padding: 50px;
+    line-height: 70px;
+    letter-spacing: 2px;
+}
+.last p:nth-child(1){
+    font-size: 37px;
+}
+.last p:nth-child(2){
+    font-size: 22px;
+}
+.last span{
+    background-color: lightcoral;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+    width: 15%;
+    align-self: center;
+}
+.last span:hover{
+    background-color: lightgray;
+    color: black;
+}
+.w3{
+    background-color: black;
+    padding: 40px;
+    color: white;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.w3 a{
+    color: white;
+}
+.w3 a:hover{
+    color: green;
+}
+@media screen and (min-width : 750px) and  (max-width : 1180px){
+    .container>*{
+        width: 95%;
+    }
+    .container .wedding{
+        font-size: 15px;
+        padding: 18px;
+        width: 20%;
+    }  
+    .w3{
+        width: 100%;
+    }
+}
+@media screen and (max-width : 749px){
+    .container>*{
+        width: 95%;
+    }
+    .container .wedding{
+        font-size: 15px;
+        padding: 15px;
+        width: 23%;
+    }
+    .foot{
+        display: none;
+    }
+    .last span{
+        width: 20%;
+    }
+    .bg-content p:nth-child(1){
+        font-size: 64px;
+        text-align: center;
+    }
+    .bg-content p:nth-child(2){
+        font-size: 36px;
+    }
+    .whenwhere{
+        flex-direction: column;
+    }
+    .w3{
+        margin-bottom: 0px;
+        width: 100%;
+    }
+
+
+}
+@media screen and (max-width : 600px){
+    .container>*{
+        width: 95%;
+    }
+    .container .wedding{
+        font-size: 14px;
+        padding: 10px;
+        width: 33%;
+    }
+    .w3{
+        width: 100%;
+    }
+    .last span{
+        font-size: 12px;
+        padding: 0px;
+        width: 35%;
+    }
+}
+ 
